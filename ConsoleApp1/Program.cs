@@ -15,7 +15,7 @@ namespace ConsoleApp1
             int[] vetor;
 
             vetor = new int[n];
-            /*
+            
             for (int i = 0; i < n; i++)
             {
                 Console.Write("Vetor[" + i + "]: ");
@@ -44,7 +44,9 @@ namespace ConsoleApp1
             foreach (int conteudo in matriz)
             {
                 Console.WriteLine(conteudo);
-            } */
+            }
+
+            Console.WriteLine();
 
             int[] vetor2;
             vetor2 = new int[n];
