@@ -65,7 +65,7 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine();
-            Console.WriteLine(maior);
+            Console.WriteLine("Maior: " + maior);
 
             int menor = 0;
             foreach (int exampleMenor in  vetor2)
@@ -77,7 +77,16 @@ namespace ConsoleApp1
                    menor = exampleMenor;
             }
 
-            Console.WriteLine(menor);
+            Console.WriteLine("Menor: " + menor);
+            Console.WriteLine();
+
+            int sum = 0;
+            foreach (int soma in vetor2)
+            {
+                sum += soma;
+            }
+
+            Console.WriteLine("Soma: " + sum);
 
 
 
